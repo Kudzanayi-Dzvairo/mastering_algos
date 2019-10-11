@@ -38,4 +38,5 @@ function reverse3(){
     return str.split('').reverse().join('')
 }
 
-const reverse3 = str => str.split('').reverse().join('')
+const reverse3 = str => [...str].reverse().join('')
+
