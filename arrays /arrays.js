@@ -69,5 +69,30 @@ newArray.push('hi')
 newArray.push('me')
 newArray.pop()
 
-console.log(newArray)
+// console.log(newArray)
+
+var nums = []
+
+for(let i = 0; i < 100; i++){
+    nums[i] = i + 1
+}
+
+// console.log(nums)
+
+let sentence = 'the quick brown fox jumped over the lazy dog'
+let words = sentence.split(" ");
+// git 
+
+var names = ['Tendai', 'Takudzwa', 'Tinei', 'Tadiwa']
+
+function findName(array, name){
+    let position = array.indexOf(name)
+    if(position >= 0){
+    console.log(`Found ${name} at position ${position}`)
+    } else {
+     console.log('Name not found')
+    }
+}
+
+findName(names, 'Tapiwa')
 
