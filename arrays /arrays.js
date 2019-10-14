@@ -94,5 +94,8 @@ function findName(array, name){
     }
 }
 
-findName(names, 'Tapiwa')
+// findName(names, 'Tapiwa')
+
+
+
 
